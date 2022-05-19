@@ -1,0 +1,35 @@
+/*-------------- Content ------------*/
+
+.dialog{
+    background: white;
+    border-radius: 8px;
+    border: 1px solid $dark-blue-usaid;
+    position: relative;
+}
+.arrow-left{
+    height: 35vh;
+    overflow-y: scroll;
+    &::before{
+        content: ' ';
+        width: 0;
+        height: 0;
+        display: block;
+        position: absolute;
+        left: -10px;
+        top: 50%;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;   
+        border-right:10px solid $dark-blue-usaid;
+    }
+}
+.bg-sld{
+    background:url(/img/sld2a.jpg) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    .small-icon{
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 12vh;
+    }
+}

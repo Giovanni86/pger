@@ -1,0 +1,14 @@
+.container-background-fixed{ background-color: var(--bg-content); transition: var(--time-animation) all; }
+.container-background-fixed[data-position="#Page1"] { opacity: 1; }
+.container-background-fixed[data-position="#Page2"] { opacity: 0.9; }
+.container-background-fixed[data-position="#Page3"] { opacity: 0.8; }
+.container-background-fixed[data-position="#Page4"] { opacity: 0.7; }
+.container-background-fixed[data-position="#Page5"] { opacity: 0.6; }
+.container-background-fixed[data-position="#Page6"] { opacity: 0.5; }
+.container-background-fixed[data-position="#Page7"] { opacity: 0.4; }
+.container-background-fixed[data-position="#Page8"] { opacity: 0.3; }
+.container-background-fixed[data-position="#Page9"] { opacity: 0.4; }
+.container-background-fixed[data-position="#Page10"] { opacity: 0.5; }
+
+.container-main > .block:nth-child(even) {background-color: #EAE4D4}
+.container-main > .block:nth-child(odd) {background-color: #EEE9DD}

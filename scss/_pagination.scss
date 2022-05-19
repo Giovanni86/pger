@@ -1,0 +1,28 @@
+
+.pagination { 
+    background-image: url(../img/cinta-paginador.svg);
+    background-size: 54px 88px;
+    background-repeat: no-repeat;
+    color: #fff;
+    float: right;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: -49px;
+    text-align: center;
+    width: 54px;
+    height: 80px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    position: fixed;
+    top: 19%;
+    right: 0;
+}
+.pr-bar{
+    position: relative;
+    width: 100%;
+    height: 8px;
+    background-color: var(--bg-buttons-interfaz);
+}

@@ -1,0 +1,40 @@
+<div class="container animate__animated animate__zoomIn">
+    <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-12 col-md-4 align-self-center my-3 animate__animated animate__zoomIn">
+            <p>Has click sobre cada uno de los iconos</p>
+        </div>
+        <div class="col-12 col-md-10 align-self-center bg-sld">
+            <div class="row p-5">
+                <div class="col-12 col-md-6 align-items-center justify-content-center d-flex">
+                    <a class="small-icon" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Establecimiento Educativo - EE -" data-bs-content="El Establecimiento Educativo –EE- Rural Los Laureles tiene cuatro sedes; todas ubicadas en zonas rurales y en veredas distantes. En la sede más cercana el servicio educativo es desde preescolar a 11º, y en las demás sedes de preescolar a 5º.">
+                        <img class="" src="/img/colegio1.svg" alt="icono de colegio">
+                    </a>
+                </div>
+                <div class="col-12 col-md-6 align-items-center justify-content-center d-flex">
+                    <a class="small-icon" tabindex="0" role="button" data-bs-toggle="popover" data-bs-trigger="focus" title="Modelos flexibles" data-bs-content="Todas nuestras sedes promueven el derecho a la educación de niños y niñas desarrollando distintos modelos flexibles.">
+                        <img src="/img/colegio2.svg" alt="icono de colegio">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Imagen con referencia -->
+        <div class="col-12 col-md-4 align-self-center my-3 animate__animated animate__zoomIn">
+            <figure class="figure">
+                <figcaption class="figure-caption text-left"><small><strong><em>Imagen 1</em></strong> Recuperado de www.freepik.es</small></figcaption>
+            </figure>
+        </div>
+        <!-- Fin imagen con referencia -->
+    </div>
+</div>
+<script>
+    
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+    return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>
+
+
+
+
