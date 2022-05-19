@@ -33,3 +33,24 @@
         margin: 12vh;
     }
 }
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Mali', cursive;
+    font-weight: 400;
+    color: $green-course;
+}
+
+.media-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 60px;
+    height: 60px;
+    img{
+        width: 98%;
+        height: 98%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    
+}
