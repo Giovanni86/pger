@@ -23,13 +23,13 @@
     border:2px solid black;
     border-image: repeating-linear-gradient(170deg, black 20%, rgba(81, 242, 139, 0) 20%, black 80%, black 100%) 10;
     border-radius: 4px;
-    background-image: url("/img/ico-menu.svg");
+    background-image: url(../img/ico-menu.svg);
     background-repeat: no-repeat;
     background-position: center center;
     cursor: pointer;
     &::after{
         content: ' ';
-        background-image: url("/img/ico-menu.svg") !important;
+        background-image: url(../img/ico-menu.svg) !important;
         position: absolute;
         top: 0px;
         left: 40px;
