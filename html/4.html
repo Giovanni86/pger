@@ -11,7 +11,7 @@
             </p>
             <div class="row">
                 <div class="d-grid gap-2 col-6 mx-auto mb-3">
-                    <a class="btn btn-primary btn-lg d-flex"  role="button" data-page="#Page3">
+                    <a class="btn btn-success btn-lg d-flex"  role="button" data-bs-toggle="modal" data-bs-target="#modulo1">
                         <span class="text-start">
                             <b>Módulo 1.</b> 
                             Relación con el entorno y el direccionamiento estratégico
@@ -20,7 +20,7 @@
                     </a>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto mb-3">
-                    <a class="btn btn-primary btn-lg d-flex"  role="button">
+                    <a class="btn btn-success btn-lg d-flex"  role="button">
                         <span class="text-start">
                             <b>Módulo 2.</b> 
                             Direccionamiento estratégico
@@ -29,7 +29,7 @@
                     </a>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto mb-3">
-                    <a class="btn btn-primary btn-lg d-flex"  role="button">
+                    <a class="btn btn-success btn-lg d-flex"  role="button">
                         <span class="text-start">
                             <b>Módulo 3.</b> 
                             Liderazgo y participación para un direccionamiento estratégico efectivo
@@ -38,7 +38,7 @@
                     </a>
                 </div>
                 <div class="d-grid gap-2 col-6 mx-auto mb-3">
-                    <a class="btn btn-primary btn-lg d-flex"  role="button">
+                    <a class="btn btn-success btn-lg d-flex"  role="button">
                         <span class="text-start">
                             <b>Módulo 4.</b> 
                             Organización estratégica y orientación al cambio
@@ -55,4 +55,68 @@
             </div>
         </div>
     </div>
+    
 </div>
+
+<!-- Modal -->
+    <div class="modal  fade " id="modulo1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modulo 1</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="col-12">
+                            <h2 class="mb-4 text-center">Módulo 1. Relación con el entorno y el direccionamiento estratégico </h2>
+                        </div>
+                        <div class="col-12 col-md-5">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-diana.svg" alt="icono de diana">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Cuál es el propósito?</h3>
+                                    <p class="border-text mb-5">
+                                        Reconocer la importancia y el relacionamiento entre la alianza familia y escuela, la articulación con la comunidad local, la política de inclusión y diversidad, el direccionamiento y la gestión estratégica de una institución educativa rural, a partir de herramientas colaborativas.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <table class="table">
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Last</th>
+                                    <th scope="col">Handle</th>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Otto</td>
+                                    <td>@mdo</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Thornton</td>
+                                    <td>@fat</td>
+                                  </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer mx-auto">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal">Entiendo</button>
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    $(".modal").on("shown.bs.modal", function () {
+    if ($(".modal-backdrop").length > 1) {
+        $(".modal-backdrop").not(':first').remove();
+    }
+})
+</script>
+  

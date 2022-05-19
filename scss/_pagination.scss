@@ -1,6 +1,6 @@
 
 .pagination { 
-    background-image: url(../img/cinta-paginador.svg);
+    background-color: rgba(0, 0, 0, 0.30);
     background-size: 54px 88px;
     background-repeat: no-repeat;
     color: #fff;
@@ -10,15 +10,16 @@
     margin-top: -49px;
     text-align: center;
     width: 54px;
-    height: 80px;
+    height: 50px;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
     position: fixed;
-    top: 19%;
-    right: 0;
+    top: 70px;
+    right: 10px;
+    border-radius: 5px;
 }
 .pr-bar{
     position: relative;
