@@ -1,14 +1,18 @@
 <div class="container animate__animated animate__zoomIn">
     <div class="row d-flex align-items-center justify-content-center">
         <div class="col-12 col-md-10 align-self-center">
-            <h2>Para iniciar este camino</h2>
-            <p class="border-text mb-5">
-                Para iniciar este camino es necesario que conozcamos la estructura del curso
-                <br>
-                Este curso consta de cuatro módulos de formación
-            </p>
             <div class="row">
-                <div class="d-grid gap-2 col-6 mx-auto mb-3">
+                <div class="col-12">
+                    <h2>Para iniciar este camino</h2>
+                    <p class="border-text mb-5">
+                        Para iniciar este camino es necesario que conozcamos la estructura del curso
+                        <br>
+                        Este curso consta de cuatro módulos de formación
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="d-grid gap-2 col-12 col-md-6 mx-auto mb-3">
                     <a class="btn btn-success btn-lg d-flex"  role="button" data-bs-toggle="modal" data-bs-target="#modulo1">
                         <span class="text-start">
                             <b>Módulo 1.</b> 
@@ -17,7 +21,7 @@
                         <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
                     </a>
                 </div>
-                <div class="d-grid gap-2 col-6 mx-auto mb-3">
+                <div class="d-grid gap-2 col-12 col-md-6 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#modulo2">
                     <a class="btn btn-success btn-lg d-flex"  role="button">
                         <span class="text-start">
                             <b>Módulo 2.</b> 
@@ -26,7 +30,7 @@
                         <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
                     </a>
                 </div>
-                <div class="d-grid gap-2 col-6 mx-auto mb-3">
+                <div class="d-grid gap-2 col-12 col-md-6 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#modulo3">
                     <a class="btn btn-success btn-lg d-flex"  role="button">
                         <span class="text-start">
                             <b>Módulo 3.</b> 
@@ -35,7 +39,7 @@
                         <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
                     </a>
                 </div>
-                <div class="d-grid gap-2 col-6 mx-auto mb-3">
+                <div class="d-grid gap-2 col-12 col-md-6 mx-auto mb-3" data-bs-toggle="modal" data-bs-target="#modulo4">
                     <a class="btn btn-success btn-lg d-flex"  role="button">
                         <span class="text-start">
                             <b>Módulo 4.</b> 
@@ -53,23 +57,24 @@
             </div>
         </div>
     </div>
-    
 </div>
 
 <!-- Modal -->
-    <div class="modal  fade " id="modulo1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modulo 1</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="container-fluid">
+<div class="modal fade " id="modulo1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modulo 1</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Primer elemento de 4  -->
                         <div class="col-12">
-                            <h2 class="mb-4 text-center">Módulo 1. Relación con el entorno y el direccionamiento estratégico </h2>
+                            <h2 class="mb-5 text-center">Módulo 1. Relación con el entorno y el direccionamiento estratégico </h2>
                         </div>
-                        <div class="col-12 col-md-5">
+                        <div class="col-12 col-md-6">
                             <div class="row">
                                 <div class="col-3">
                                     <img class="img-fluid" src="./img/ico-diana.svg" alt="icono de diana">
@@ -82,34 +87,463 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-4">
-                            <table class="table">
-                                <thead>
-                                  <tr>
-                                    <th scope="col">Last</th>
-                                    <th scope="col">Handle</th>
-                                  </tr>
-                                </thead>
-                                <tbody>
-                                  <tr>
-                                    <td>Otto</td>
-                                    <td>@mdo</td>
-                                  </tr>
-                                  <tr>
-                                    <td>Thornton</td>
-                                    <td>@fat</td>
-                                  </tr>
-                                </tbody>
-                            </table>
+
+                        <!-- segundo elemento de 4 -->
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-lvls.svg" alt="icono de niveles">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Qué dimensiones y componentes se trabajarán?</h3>
+                                    <table class="table-responsive">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Dimensión</th>
+                                                <th scope="col">Componentes</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Familia, comunidad y redes locales</td>
+                                                <td>Alianza familia y escuela Articulación de oferta complementaria</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Acogida, bienestar y permanencia</td>
+                                                <td>Inclusión y permanencia</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- tercer elemento de 4 -->
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-priority.svg" alt="icono de priorización">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Cuáles son las prácticas a priorizar?</h3>
+                                    <table class="table-responsive">
+                                        <tbody>
+                                            <tr>
+                                                <td>Prácticas de liderazgo personal </td>
+                                                <td>Prácticas de liderazgo administrativas y comunitarias</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <ul>
+                                                        <li>
+                                                            Comunicación efectiva
+                                                        </li>
+                                                        <li>
+                                                            Trabajo colaborativo 
+                                                        </li>
+                                                        <li>
+                                                            Inclusión y equidad
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td>Construcción de redes y comunidades de aprendizaje</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- cuarto elemento de 4 -->
+
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-themes.svg" alt="icono de temas">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Qué temáticas se abordan?</h3>
+                                    <ul>
+                                        <li>Alianza familia – comunidad – escuela Estrategias de inclusión y permanencia</li>
+                                        <li>Articulación de oferta complementaria en los entornos rurales</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer mx-auto">
-                    <button type="button" class="btn btn-success btn-lg" data-bs-dismiss="modal">Entiendo</button>
-                </div>
+            </div>
+            <div class="modal-footer mx-auto">
+                <button type="button" class="btn btn-success btn-lg" data-bs-dismiss="modal">Entiendo</button>
             </div>
         </div>
     </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade " id="modulo2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modulo 2</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Primer elemento de 4  -->
+                        <div class="col-12">
+                            <h2 class="mb-5 text-center">Módulo 2. Direccionamiento estratégico </h2>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-diana.svg" alt="icono de diana">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Cuál es el propósito?</h3>
+                                    <p class="border-text mb-5">
+                                        Reconocer la importancia y el relacionamiento entre la alianza familia y escuela, la articulación con la comunidad local, la política de inclusión y diversidad, el direccionamiento y la gestión estratégica de una institución educativa rural, a partir de herramientas colaborativas.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- segundo elemento de 4 -->
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-lvls.svg" alt="icono de niveles">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Qué dimensiones y componentes se trabajarán?</h3>
+                                    <table class="table-responsive">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Dimensión</th>
+                                                <th scope="col">Componentes</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Familia, comunidad y redes locales</td>
+                                                <td>Alianza familia y escuela Articulación de oferta complementaria</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Acogida, bienestar y permanencia</td>
+                                                <td>Inclusión y permanencia</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- tercer elemento de 4 -->
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-priority.svg" alt="icono de priorización">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Cuáles son las prácticas a priorizar?</h3>
+                                    <table class="table-responsive">
+                                        <tbody>
+                                            <tr>
+                                                <td>Prácticas de liderazgo personal </td>
+                                                <td>Prácticas de liderazgo administrativas y comunitarias</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <ul>
+                                                        <li>
+                                                            Comunicación efectiva
+                                                        </li>
+                                                        <li>
+                                                            Trabajo colaborativo 
+                                                        </li>
+                                                        <li>
+                                                            Inclusión y equidad
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td>Construcción de redes y comunidades de aprendizaje</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- cuarto elemento de 4 -->
+
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-themes.svg" alt="icono de temas">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Qué temáticas se abordan?</h3>
+                                    <ul>
+                                        <li>Alianza familia – comunidad – escuela Estrategias de inclusión y permanencia</li>
+                                        <li>Articulación de oferta complementaria en los entornos rurales</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer mx-auto">
+                <button type="button" class="btn btn-success btn-lg" data-bs-dismiss="modal">Entiendo</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal 3 -->
+<div class="modal fade " id="modulo3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modulo 3</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Primer elemento de 4  -->
+                        <div class="col-12">
+                            <h2 class="mb-5 text-center">Módulo 3. Liderazgo y participación para un direccionamiento estratégico efectivo</h2>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-diana.svg" alt="icono de diana">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Cuál es el propósito?</h3>
+                                    <p class="border-text mb-5">
+                                        Reconocer la importancia y el relacionamiento entre la alianza familia y escuela, la articulación con la comunidad local, la política de inclusión y diversidad, el direccionamiento y la gestión estratégica de una institución educativa rural, a partir de herramientas colaborativas.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- segundo elemento de 4 -->
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-lvls.svg" alt="icono de niveles">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Qué dimensiones y componentes se trabajarán?</h3>
+                                    <table class="table-responsive">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Dimensión</th>
+                                                <th scope="col">Componentes</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Familia, comunidad y redes locales</td>
+                                                <td>Alianza familia y escuela Articulación de oferta complementaria</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Acogida, bienestar y permanencia</td>
+                                                <td>Inclusión y permanencia</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- tercer elemento de 4 -->
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-priority.svg" alt="icono de priorización">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Cuáles son las prácticas a priorizar?</h3>
+                                    <table class="table-responsive">
+                                        <tbody>
+                                            <tr>
+                                                <td>Prácticas de liderazgo personal </td>
+                                                <td>Prácticas de liderazgo administrativas y comunitarias</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <ul>
+                                                        <li>
+                                                            Comunicación efectiva
+                                                        </li>
+                                                        <li>
+                                                            Trabajo colaborativo 
+                                                        </li>
+                                                        <li>
+                                                            Inclusión y equidad
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td>Construcción de redes y comunidades de aprendizaje</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- cuarto elemento de 4 -->
+
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-themes.svg" alt="icono de temas">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Qué temáticas se abordan?</h3>
+                                    <ul>
+                                        <li>Alianza familia – comunidad – escuela Estrategias de inclusión y permanencia</li>
+                                        <li>Articulación de oferta complementaria en los entornos rurales</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer mx-auto">
+                <button type="button" class="btn btn-success btn-lg" data-bs-dismiss="modal">Entiendo</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Modal 4 -->
+<div class="modal fade " id="modulo4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modulo 4</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- Primer elemento de 4  -->
+                        <div class="col-12">
+                            <h2 class="mb-5 text-center">Módulo 4. Organización estratégica y orientación al cambio</h2>
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-diana.svg" alt="icono de diana">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Cuál es el propósito?</h3>
+                                    <p class="border-text mb-5">
+                                        Reconocer la importancia y el relacionamiento entre la alianza familia y escuela, la articulación con la comunidad local, la política de inclusión y diversidad, el direccionamiento y la gestión estratégica de una institución educativa rural, a partir de herramientas colaborativas.  
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- segundo elemento de 4 -->
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-lvls.svg" alt="icono de niveles">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Qué dimensiones y componentes se trabajarán?</h3>
+                                    <table class="table-responsive">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Dimensión</th>
+                                                <th scope="col">Componentes</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Familia, comunidad y redes locales</td>
+                                                <td>Alianza familia y escuela Articulación de oferta complementaria</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Acogida, bienestar y permanencia</td>
+                                                <td>Inclusión y permanencia</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- tercer elemento de 4 -->
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-priority.svg" alt="icono de priorización">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Cuáles son las prácticas a priorizar?</h3>
+                                    <table class="table-responsive">
+                                        <tbody>
+                                            <tr>
+                                                <td>Prácticas de liderazgo personal </td>
+                                                <td>Prácticas de liderazgo administrativas y comunitarias</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <ul>
+                                                        <li>
+                                                            Comunicación efectiva
+                                                        </li>
+                                                        <li>
+                                                            Trabajo colaborativo 
+                                                        </li>
+                                                        <li>
+                                                            Inclusión y equidad
+                                                        </li>
+                                                    </ul>
+                                                </td>
+                                                <td>Construcción de redes y comunidades de aprendizaje</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- cuarto elemento de 4 -->
+
+                        <div class="col-12 col-md-6">
+                            <div class="row">
+                                <div class="col-3">
+                                    <img class="img-fluid" src="./img/ico-themes.svg" alt="icono de temas">
+                                </div>
+                                <div class="col-9">
+                                    <h3>¿Qué temáticas se abordan?</h3>
+                                    <ul>
+                                        <li>Alianza familia – comunidad – escuela Estrategias de inclusión y permanencia</li>
+                                        <li>Articulación de oferta complementaria en los entornos rurales</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer mx-auto">
+                <button type="button" class="btn btn-success btn-lg" data-bs-dismiss="modal">Entiendo</button>
+            </div>
+        </div>
+    </div>
+</div>
 <script>
     $(".modal").on("shown.bs.modal", function () {
     if ($(".modal-backdrop").length > 1) {
