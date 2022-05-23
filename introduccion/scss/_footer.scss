@@ -1,0 +1,40 @@
+.disclaimer-footer{
+    display: block;
+}
+.usaid-footer{
+    background-color: $light-blue-usaid;
+    border-top: 4px solid $ultra-dark-blue-usaid;
+    width: 100%;
+    margin: 0;
+    color: $ultra-dark-blue-usaid;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: center;
+    padding: 3px;
+    .blockquote-footer::before{
+        content: "";
+    }
+    .discaimer{
+        padding: 10px 6px 0px 6px;
+        font-size: 0.7em;
+        color: $ultra-dark-blue-usaid;
+        font-weight: lighter;
+    }
+    @media (max-width: 767.98px) { 
+        .discaimer{
+            display: none;
+        }
+    }
+}
+footer{
+    position: fixed;
+    bottom: 26px;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    display: none;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 3px;
+}
