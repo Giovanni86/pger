@@ -30,7 +30,15 @@
         display: block;
         width: 100px;
         height: 100px;
-        margin: 12vh;
+        margin: 8vh;
+    }
+    
+}
+@media (max-width: 767.98px) {
+    .bg-sld{
+        .small-icon{
+            margin: 4vh;
+        }
     }
 }
 h1,h2,h3,h4,h5,h6{

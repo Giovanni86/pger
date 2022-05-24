@@ -39,3 +39,16 @@
         </div>
     </div>
 </div>
+<script>
+    $('body').on('click', '.btn-prev', function(){
+        let page = '#Page';
+        let number = position-1;
+        let PageId = page+number;
+
+        if(position <= 1){
+            return 0;
+        }
+
+        fn_goTo(PageId);
+    });
+</script>
