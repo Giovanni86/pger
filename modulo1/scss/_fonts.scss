@@ -12,6 +12,7 @@
 
 .color-text{ color: $color-content; }
 .border-text{ border-left: 3px solid $bg-header; padding: 0 20px;}
+.text-blue{ color: $dark-blue-usaid; }
 .texto-destacado { font-weight: bold; color: $color-curso-1; }
 .texto-destacado2 { font-weight: bold; color: $color-curso-2; }
 .texto-destacado3 { font-weight: bold; color: $magenta-men; }
@@ -99,69 +100,47 @@ ul.color-list li::before {
     padding-right: 10px;
     border-right: 3px solid $bg-header;
 }
-
+.list .bullet1, .list .bullet2, .list .bullet3, .list .bullet4, .list .bullet5, .list .bullet6{
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 100%;
+    font-size: 22px;
+    line-height: 35px;
+    margin-left: -17px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
 .list .bullet1{
-    width: 35px;
-    height: 35px;
     background-color: $color-curso-1;
-    flex-shrink: 0;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 100%;
-    font-size: 22px;
-    line-height: 35px;
     color: $bg-content;
-    margin-left: -17px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
-
-
 .list .bullet2{
-    width: 35px;
-    height: 35px;
     background-color: $color-curso-2;
-    flex-shrink: 0;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 100%;
-    font-size: 22px;
-    line-height: 35px;
     color: $bg-content;
-    margin-left: -17px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
-
 .list .bullet3{
-    width: 35px;
-    height: 35px;
     background-color: $color-curso-3;
-    flex-shrink: 0;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 100%;
-    font-size: 22px;
-    line-height: 35px;
     color: $bg-content;
-    margin-left: -17px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
 }
 
 .list .bullet4{
-    width: 35px;
-    height: 35px;
-    background-color: $border-tag;
-    flex-shrink: 0;
-    text-align: center;
-    font-weight: bold;
-    border-radius: 100%;
-    font-size: 22px;
-    line-height: 35px;
-    color: $color-content;
-    margin-left: -17px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    background-color: $color-curso-4;
+    color: $bg-content;
 }
-
-
+.list .bullet5{
+    background-color: $color-curso-5;
+    color: $bg-content;
+}
+.list .bullet6{
+    background-color: $color-curso-6;
+    color: $bg-content;
+}
+.list .bullet7{
+    background-color: $color-curso-7;
+    color: $bg-content;
+}
 .bg-1{
     background-color: $bg-azul !important;
 }
