@@ -2,8 +2,8 @@
     display: block;
 }
 .usaid-footer{
-    background-color: $light-blue-usaid;
-    border-top: 4px solid $ultra-dark-blue-usaid;
+    background-color: white;
+    border-top: 2px solid $ultra-dark-blue-usaid;
     width: 100%;
     margin: 0;
     color: $ultra-dark-blue-usaid;
@@ -17,7 +17,7 @@
     }
     .discaimer{
         padding: 10px 6px 0px 6px;
-        font-size: 0.8em;
+        font-size: 0.7em;
         color: $ultra-dark-blue-usaid;
     }
     @media (max-width: 767.98px) { 
