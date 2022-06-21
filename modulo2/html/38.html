@@ -1,23 +1,44 @@
-
 <div class="container animate__animated animate__zoomIn">
     <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-12 col-md-11 align-self-center">
-            <h1 class="mb-5">1. Objetivos </h1>
-            <div class="row mb-3">
-                <div class="col-11 col-md-5">
-                    <img class="img-fluid" src="./img/consuelo-p1.svg" alt="Imagen de consuelo parra saludando">
-                </div>
-                <div class="col-11 col-md-7 dialog">
-                    <div class="arrow-left p-4 my-3">
-                        <h5 class="my-4">
-                            En esta búsqueda de opciones ¿con quién me puedo articular?, ¿qué empresas, organizaciones, colectivos, cooperativas, escenarios de educación, le puedan brindar a mi EE, diversas opciones de aprendizaje, de producción, de proyección social, laboral no solo a mis estudiantes, sino a la comunidad?
-                        </h5>
+        <div class="col-12 col-md-7 order-2 order-md-2 align-self-center">
+            <h3>¿Cómo aporta la rendición de cuentas a la calidad educativa?</h3>
+
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-4 justify-content-center d-flex">
+                    <div class="btn-group-vertical justify-content-center" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-danger mt-5 btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top" data-bs-content="Permite socializar el uso y la inversión de los recursos de la institución, abriendo canales de comunicación para la realimentación de toda la comunidad, que es clave en la optimización del gasto.">
+                            1
+                            <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                        </button>
+                        <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="left" data-bs-content="A partir de esta realimentación y del trabajo colaborativo se logra disponer de manera pertinente, de los recursos en relación con las necesidades contextualizadas de la institución.">
+                            2
+                            <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                        </button>
+                        <button type="button" class="btn btn-success btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="left" data-bs-content="Permitir que la rendición de cuentas se lleve a cabo desde una perspectiva democrática, incluyendo a todos los actores educativos, incide en el mejoramiento y aumento en el nivel de compromiso de todos los actores educativos hacia los procesos internos de las instituciones educativas.">
+                            3
+                            <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                        </button>
+                        <button type="button" class="btn btn-info btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content="La rendición de cuentas año a año, permite tener la trazabilidad de los procesos internos y de la forma en cómo se administran cada uno de los componentes de gestión, para que con esto se aporte, desde la sistematización de la información, al ejercicio histórico, y a la proyección de la inversión en las necesidades, fortalezas, y oportunidades de mejora de la institución.">
+                            4
+                            <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                        </button>
+                        <button type="button" class="btn btn-dark btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content="La rendición de cuentas aporta de manera directa a la calidad educativa del EE, porque al construir un escenario de transparencia con toda la comunidad, hay mayor probabilidad de mejorar la calidad educativa.">
+                            5
+                            <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                        </button>
                     </div>
+                </div>
+                <div class="col-10 col-md-8 justify-content-center d-flex">
+                    <img class="m-4" src="./img/consuelo-p5-iz.svg" class="figure-img img-fluid rounded" alt="Imagen consuelo">
                 </div>
             </div>
         </div>
     </div>
-     
 </div>
-
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>
 

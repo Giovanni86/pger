@@ -3,3 +3,12 @@
     background-color: $dark-blue-usaid;
     margin-bottom: 6px;
 }
+
+.badge{
+    cursor: pointer;
+    img{
+        width: 100%;
+        max-width: 18px;
+        height: auto;
+    }
+}

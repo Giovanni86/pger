@@ -1,23 +1,33 @@
 <div class="container animate__animated animate__zoomIn">
     <div class="row d-flex align-items-center justify-content-center">
         <div class="col-12 col-md-11 align-self-center">
-            <h1 class="mb-5">Unidad de aprendizaje 3. Articulación de oferta complementaria en entornos rurales</h1>
+            <p class="border-text mb-3">
+                Como directiva docente entiendo que la rendición de cuentas se configura como una herramienta que permite hacer seguimiento a todos los elementos que componen la planeación institucional y cómo se van materializando. 
+            </p>
             <div class="row mb-3">
                 <div class="col-11 col-md-5">
-                    <img class="img-fluid" src="./img/consuelo-p1.svg" alt="Imagen de consuelo parra saludando">
+                    <p>Los tres procesos de planeación que he tenido en cuenta para la rendición de cuentas son: </p>
                 </div>
-                <div class="col-11 col-md-7 dialog">
-                    <div class="arrow-left p-4 my-3">
-                        <div class="alert alert-success" role="alert">
-                            En la tercera unidad se busca reconocer la oferta complementaria educativa en el entorno del EE y generar estrategias de articulación que propendan por mejorar el proceso de formación de los niños, las niñas y adolescentes de la institución educativa.
+                <div class="col-12 col-md-10 animate__animated animate__zoomIn">
+                    <div class="row">
+                        <div class="d-grid gap-2 col-12 col-sm-6 col-md-4 mx-auto mb-4">
+                            <button class="btn btn-warning btn-lg" data-bs-trigger="focus" data-bs-toggle="popover" type="button" data-bs-content="El Proyecto Educativo Institucional – PEI – recoge todos los fines de la IE y está compuesto por planes de estudios, planes de aula, proyectos pedagógicos transversales, rutas para evaluar y para convivir.">
+                                Proyecto Educativo Institucional
+                                <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                            </button>
                         </div>
-                        <p>
-                            Para iniciar este reconocimiento debemos partir de preguntarnos:
-                        </p>
-                        <div class="alert alert-info" role="alert">
-                            ¿Qué es la articulación de oferta complementaria en entornos rurales?
+                        <div class="d-grid gap-2 col-12 col-sm-6 col-md-4 mx-auto mb-4">
+                            <button class="btn btn-warning btn-lg" data-bs-trigger="focus" data-bs-toggle="popover" type="button" data-bs-content="El Plan de Mejoramiento Institucional – PMI – es el conjunto de medidas establecidas para lograr cambios significativos en los objetivos estratégicos de la IE en plazos hasta de 3 años.">
+                                Plan Operativo Anual
+                                <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                            </button>
                         </div>
-                        
+                        <div class="d-grid gap-2 col-12 col-sm-6 col-md-4 mx-auto mb-4">
+                            <button class="btn btn-warning btn-lg" data-bs-trigger="focus" data-bs-toggle="popover" type="button" data-bs-content="El Plan Operativo Anual – POA – permite articular lo estratégico con lo operativo del PEI y la política pública anualmente.">
+                                Plan de Mejoramiento Institucional.
+                                <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -27,3 +37,9 @@
 </div>
 
 
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>
