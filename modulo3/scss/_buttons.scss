@@ -1,0 +1,210 @@
+/*-------------- buttons ------------*/
+.btns{
+    width: 64px;
+    height: 64px;
+    // line-height: 35px !important;
+    font-size: 20px;
+    text-align: center;
+    background-color: $dark-blue-usaid ;
+    color: $color-buttons-interfaz;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0 5px;
+    box-shadow: none;
+    padding: 0;
+}
+
+.btn-menu{
+    position: fixed;
+    background-color: $yellow-course !important;
+    top: 14%;
+    right: 40px;
+    z-index: 101;
+    border:2px solid black;
+    border-image: repeating-linear-gradient(170deg, black 20%, rgba(81, 242, 139, 0) 20%, black 80%, black 100%) 10;
+    border-radius: 4px;
+    background-image: url(../img/ico-menu.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    &::after{
+        content: ' ';
+        background-image: url(../img/ico-menu.svg) !important;
+        position: absolute;
+        top: 0px;
+        left: 40px;
+    }
+}
+
+.btn-prev,
+.btn-next { font-size: 28px; }
+
+.btn-prev{ position: absolute; left: 50px; }
+.btn-next{ position: absolute; right: 30px; }
+
+// .btn-prev::after{
+//     content: 'Anterior';
+//     color: $color-header;
+//     position: absolute;
+//     left: 50px;
+// }
+
+// .btn-next::before{
+//     content: 'Siguiente';
+//     color: $color-header;
+//     position: absolute;
+//     right: 50px;
+// }
+
+.btn-credits{
+    position: relative;
+    top: 17%;
+    right: 10px;
+    background-color: $bg-header !important;
+    color: $bg-menu !important;
+    z-index: 1000;
+    float: right;
+    display: none;
+}
+
+.btn-audio{
+    opacity: 0;
+}
+
+.btn-audio.active{
+    opacity: 1;
+}
+
+.btn-menu-item{ cursor: pointer; }
+
+.btn-menu-item2{ cursor: pointer; }
+
+.btn-menu-item2:hover {
+    text-decoration: underline;
+  }  
+
+/*========================================================================
+Estilos Internos
+=========================================================================*/
+
+.btn-start{
+    border: none;
+    background-color: $usaid-red !important;
+    color: $bg-btn-start !important;
+    font-size: 1.1em !important;
+    font-weight: bold !important;
+    padding: 8px 25px !important;
+    margin-top: 30px !important;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+
+.btn-start:hover{ 
+    transform: scale(0.9);
+    transition:1s;
+    text-decoration: none;
+    background-color: $ultra-dark-blue-usaid !important;
+    border-radius: 25px !important;
+}
+
+.text-section{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 24px;
+    color: #2f2f2f;
+}
+
+.content-page{
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    bottom: 4%;
+    padding-top: 5%;
+}
+
+.btn-modal{
+    display: flex;
+    background-color: $bg-buttons;
+    padding: 1.3rem 1.6rem;
+    border-radius: 10px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    width: auto;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #464748;
+    white-space: nowrap;
+}
+
+.btn-modal img{ margin-right: 10px; }
+
+.btn-modal p{
+    margin: 0;
+    color: --color-text-menu;
+    font-weight: 400;
+}
+
+.btn-modal:hover{ 
+    transform: scale(0.9);
+    transition:1s;
+}
+
+// .modal{
+//     position: fixed;
+//     bottom: 0;
+//     left: 0;
+//     width: 100vw;
+//     height: 100vh;
+//     background-color: rgba(0, 0, 0, 0.8);
+//     overflow: hidden;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     transform: scale(0);
+//     z-index: 10000;
+//     transition: 600ms transform;
+// }
+
+// .modal.active{
+//     transform: scale(1);
+// }
+
+// .modal .content-modal{
+//     position: relative;
+//     width: 80%;
+//     height: 80%;
+//     display: none;
+//     justify-content: center;
+//     align-items: flex-start;
+//     background-color: #fff;
+//     overflow: auto;
+//     padding: 12px 12px 0 12px;
+// }
+
+// .modal.active .content-modal{ display: flex; }
+
+// .modal .btn-close-modal{
+//     position: absolute;
+//     top: 10px;
+//     right: 0;
+//     left: 0;
+//     width: 40px;
+//     height: 40px;
+//     cursor: pointer;
+//     margin: 0 auto;
+//     border: none !important;
+//     z-index: 1;
+// }
+
+.btn{
+    img{
+        width: 54px;
+        height: 54px;
+    }
+}
+

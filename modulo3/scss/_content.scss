@@ -1,0 +1,108 @@
+/*-------------- Content ------------*/
+
+.dialog{
+    background: white;
+    border-radius: 8px;
+    border: 1px solid $dark-blue-usaid;
+    position: relative;
+}
+.arrow-left{
+    height: 32vh;
+    overflow-y: scroll;
+    &::before{
+        content: ' ';
+        width: 0;
+        height: 0;
+        display: block;
+        position: absolute;
+        left: -10px;
+        top: 50%;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;   
+        border-right:10px solid $dark-blue-usaid;
+    }
+}
+.arrow-right{
+    height: 32vh;
+    overflow-y: scroll;
+    &::before{
+        content: ' ';
+        width: 0;
+        height: 0;
+        display: block;
+        position: absolute;
+        right: -10px;
+        top: 50%;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;   
+        border-left:10px solid $dark-blue-usaid;
+    }
+}
+@media (max-width: 575.98px) {
+    .arrow-left{
+        &::before{
+            left: 50%;
+            top: -20px;
+            border-bottom: 10px solid $dark-blue-usaid;
+            border-left: 10px solid transparent;   
+            border-right:10px solid transparent;
+        }
+    }
+    .arrow-right{
+        &::before{
+            left: 50%;
+            top: 100%;
+            border-top: 10px solid $dark-blue-usaid;
+            border-left: 10px solid transparent;   
+            border-right:10px solid transparent;
+        }
+    }
+}
+
+.bg-sld{
+    background:url(../img/sld2a.jpg) no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    .small-icon{
+        display: block;
+        width: 100px;
+        height: 100px;
+        margin: 12vh;
+    }
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Mali', cursive;
+    font-weight: 400;
+    color: $usaid-dark-red;
+}
+
+.media-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    img{
+        width: 98%;
+        height: 98%;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    
+}
+
+.bg-start-course{
+    background: url(../img/bg-crs-strt.png) no-repeat right bottom;
+    background-size:  100%;
+    height: 600px;
+}
+.ico-start-course{
+    max-width: 100px;
+}
+
+.bg-info{
+    background-color: $dark-blue-usaid!important;
+}
+.card-body.blue{
+    background-color: $light-blue-usaid!important;
+}
