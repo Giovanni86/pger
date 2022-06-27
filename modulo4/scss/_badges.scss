@@ -1,0 +1,15 @@
+/*-------------- badges ------------*/
+.bgs-course-intro{
+    background-color: $brown-light;
+    margin-bottom: 6px;
+    color: black;
+}
+
+.badge{
+    cursor: pointer;
+    img{
+        width: 100%;
+        max-width: 18px;
+        height: auto;
+    }
+}

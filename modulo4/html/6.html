@@ -1,0 +1,53 @@
+<div class="container animate__animated animate__zoomIn">
+    <div class="row d-flex align-items-center justify-content-center">
+
+        <div class="col-12 col-md-10 align-self-center my-3 animate__animated animate__zoomIn mt-3">
+            <div class="alert alert-primary" role="alert">
+                <p>
+                    A partir de esta Declaración se ha manejado el concepto de <b>Educación para Todos (EFA- Education for All),</b> desde la UNESCO, siendo este principio una carta de navegación para pensarse los propósitos de la educación rural.
+                </p>
+            </div>
+        </div>
+        <div class="col-12 col-md-7 order-2 order-md-2 align-self-center">
+
+            <p class="border-text">
+                Siendo este el ideal de un mundo en el que todos los niños y las niñas tienen acceso y garantía de recibir una educación de calidad.
+                <br>
+                Tal como lo planteó Delors (1996): la escuela tiene como objetivos que los niños, niñas y adolescentes: 
+            </p>
+
+            <div class="row justify-content-center">
+                <div class="col-8 col-md-4 justify-content-center d-flex">
+                    <div class="btn-group-vertical justify-content-center" role="group" aria-label="Basic mixed styles example">
+                        <button type="button" class="btn btn-danger mt-5 btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="top" data-bs-content="1. Aprendan a ser humanos.">
+                            1
+                            <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                        </button>
+                        <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="left" data-bs-content="2. Aprendan a hacer.">
+                            2
+                            <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                        </button>
+                        <button type="button" class="btn btn-success btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="left" data-bs-content="3. Aprendan a conocer.">
+                            3
+                            <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                        </button>
+                        <button type="button" class="btn btn-info btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-placement="bottom" data-bs-content="4. Aprendan a vivir juntos.">
+                            4
+                            <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                        </button>
+                    </div>
+                </div>
+                <div class="col-10 col-md-8 justify-content-center d-flex">
+                    <img class="m-4" src="./img/ico-colombia.svg" class="figure-img img-fluid rounded" alt="mapa de Colombia con puntero">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>
+

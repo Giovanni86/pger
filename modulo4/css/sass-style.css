@@ -1,0 +1,95 @@
+/*--------------------------------
+---------------Variables------------
+------------------------------------*/
+/*----------------------------------
+-----------------Fonts--------------
+------------------------------------*/
+/*----------------------------------
+----------------General--------------
+------------------------------------*/
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/*----------------------------------
+--------------- Content ------------
+------------------------------------*/
+/*
+$gray-light:#EDF1FC;
+$gray-dark: #0A0E17;
+$purple: #963484;
+$pink: #FB6376;
+$blue: #4563A2
+*/
+header {
+  /*position: relative;*/
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  /*min-height: 16%;*/
+  background-color: var(--bg-header);
+  background-image: url(../img/img-header.png);
+  background-size: cover;
+  box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  padding: 0;
+}
+header .title-course {
+  width: 70%;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+header .title-course h2 {
+  color: var(--bg-content);
+  font-size: 1.5rem;
+  margin: 0px 50px;
+  padding: 5px 40px;
+  background: var(--color-curso-1);
+  border-radius: 20px;
+  position: relative;
+  color: white;
+}
+header .title-course h2 small {
+  font-size: 1rem;
+}
+header .title-course h2:nth-child(1) {
+  font-weight: bold;
+}
+header .title-course h2:nth-child(2) {
+  font-weight: 600;
+  background: none;
+  color: var(--color-content);
+}
+header .icono-curso {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  height: 80%;
+  background-color: white;
+  margin-right: 10px;
+}
+header .icono-curso img {
+  width: 80%;
+  height: 200px;
+}
+
+/*# sourceMappingURL=sass-style.css.map */

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 1.1 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-D82C10CA-48A9-285F-70BA-3E765D8E9684" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <organizations default="ORG-9AE32A84-B9D8-9B64-0FBD-8555BE0C4EEF">
+    <organization identifier="ORG-9AE32A84-B9D8-9B64-0FBD-8555BE0C4EEF" structure="hierarchical">
+      <title>Curso Virtual NOMBRE DEL CURSO</title>
+      <item identifier="ITEM-26486FA7-D7A8-5A87-82F6-35BE91D9DB57" identifierref="RES-4C026227-D142-0D21-2117-605BAB5ADA2C" isvisible="true">
+        <title>Curso Virtual NOMBRE DEL CURSO</title>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-4C026227-D142-0D21-2117-605BAB5ADA2C" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html" />
+    </resource>
+  </resources>
+</manifest>
+

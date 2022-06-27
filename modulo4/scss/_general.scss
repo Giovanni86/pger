@@ -1,0 +1,433 @@
+/*----------------------------------
+----------------General--------------
+------------------------------------*/
+
+body{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.container-main{
+    position: relative;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    min-height: 84%;
+    background-color: transparent;
+    color: $color-content;
+    padding: 7rem 0 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hidden{
+    opacity: 0;
+}
+
+/*---color text--*/
+.txt-blue-usaid{
+    color: $dark-blue-usaid;
+}
+.txt-red-usaid{
+    color: $usaid-red;
+}
+
+/*========================================================================
+Tabs
+=========================================================================*/
+.tabs{
+    position: relative;
+    width: 100%;
+    .tabs-header{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+    .th-glossary{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-wrap: wrap;
+    }
+    .tabs-header{
+        .tab{
+            background-color: #f4f4f4;
+            min-height: 40px;
+            min-width: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            margin: 0 20px;
+            cursor: pointer;
+            padding: 6px 20px;
+        }
+        .tab.active{
+            background-color: $color-text-tag;
+            h5{
+                color: $bg-content;
+            }
+        }
+    } 
+    .th-glossary .tab{
+        background-color: $bg-header;
+        min-height: 40px;
+        min-width: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        margin: 0 2px;
+        cursor: pointer;
+        padding: 2px 14px;
+    }
+}  
+
+.tabs .tabs-header .th-glossary .tab.active{
+    background-color: $color-curso-2;
+}
+
+.tabs .th-glossary .tab.active h5{
+    color: $bg-header;
+    font-size: 1.4em;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.tabs .tabs-header .tab h5{
+    color: $color-text-tag;
+    margin: 3px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.tabs .tabs-header .th-glossary .tab h5{
+    color: $bg-header;
+    margin: 3px;
+    font-weight: 800;
+}
+
+.tabs .tabs-body{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color:#f4f4f4;
+    border-radius: 5px;
+}
+
+.tabs .tb-glossary{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+}
+
+.tabs .content-tab{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tabs .content-tab.active{
+    display: flex;
+}
+
+/*========================================================================
+Carousel
+=========================================================================*/
+
+.carousel{
+    position: relative;
+    border: 6px solid #A5C4D6;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+/*========================================================================
+Collapse
+=========================================================================*/
+
+.accordion .card-header{
+    background-color: $bg-header;
+}
+
+.accordion .card-header button,
+.accordion .card-header button:hover,
+.accordion .card-header button:focus{
+    color: #fff !important;
+    text-decoration: none;
+    font-size: 1.75rem;
+}
+
+/*========================================================================
+Custom
+=========================================================================*/
+
+.label-module{ 
+    font-size: 1.4em;
+    font-weight: 900;
+    line-height: 26px;
+    color: #193651;
+}
+
+
+.label-module p{ font-weight: 400; margin: 0; }
+
+.image-button{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.image-button .btn-info{
+    position: absolute;
+    bottom: 3px;
+    left: 3px;
+}
+
+.tag-slide,
+.tag-slide2{
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+}
+
+.tag-slide .tag-slide-img{ 
+    width: 100px;
+    align-self: center;
+    z-index: 1;
+}
+
+.tag-slide .tag-slide-text{
+    background-color: --bg-tag-slide;
+    height: auto;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 0.5em 2em 0.5em 2.5em;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 0px;
+    margin: 24px -50px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.tag-slide2 .tag-slide-text{
+    background-color: $color-text-tag;
+    height: auto;
+    font-weight: bold;
+    line-height: 50px;
+    padding: 0.5em 2em 0.5em 2.5em;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 0px;
+    margin: 24px -50px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+
+
+.tag-slide .tag-slide-text p{
+    color: $color-text-tag;
+    padding: 0 10px;
+    margin: 0;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    white-space: normal;
+}
+
+.tag-slide2 .tag-slide-text p{
+    color: $bg-header;
+    padding: 0 10px;
+    margin: 0;
+    font-size: 1.3em;
+    line-height: 1.3em;
+    white-space: normal;
+}
+
+.content-columns{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.content-columns img{
+    width: 100%;
+}
+
+.content-columns p{
+    font-size: 1rem;
+}
+
+.w-10{ width: 10% !important; }
+.w-15{ width: 15% !important; }
+.w-20{ width: 20% !important; }
+.w-25{ width: 25% !important; }
+.w-30{ width: 30% !important; }
+.w-35{ width: 35% !important; }
+.w-40{ width: 40% !important; }
+.w-45{ width: 45% !important; }
+.w-50{ width: 50% !important; }
+.w-55{ width: 55% !important; }
+.w-60{ width: 60% !important; }
+.w-65{ width: 65% !important; }
+.w-70{ width: 70% !important; }
+.w-75{ width: 75% !important; }
+.w-80{ width: 80% !important; }
+.w-85{ width: 85% !important; }
+.w-90{ width: 90% !important; }
+.w-95{ width: 95% !important; }
+.w-100{ width: 100% !important; }
+
+
+@media (max-width: 1200px) {
+    body { font-size: 1rem !important; }
+
+    header .title-course h2 { font-size: 1.4rem; }
+}
+
+@media (max-width: 768px) {
+    h1{ font-size: 2.8rem !important; }
+    header{ position: relative !important; 
+        // min-height: 16% !important; 
+        height: auto !important; 
+        // align-items: flex-start; 
+        flex-wrap: wrap; 
+        background-position: 134% -21px !important;
+        background-size: 240px auto !important;
+    }
+    header .title-course{ width: 100%; order: 3; }
+    header .title-course h2{ margin: 5px 10px; padding: 10px 30px; font-size: 1rem; border-radius: 100px; }
+    header .title-course h2:nth-child(2){ margin-top: 5px !important; margin-bottom: 10px !important; padding:0; }
+    header .icono-curso img{ height: 60px; width: auto; margin-top: 5px; }
+    header .logo{ display: none; /* width: 20%; margin-top: 5px; */}
+    /*
+    header .title-course{ width: 70%; }
+    header .title-course h2 { font-size: 1rem; }
+    header{ height: 15% !important; }
+    header .icono-curso{ display: none;}
+    header .logo{ width: 30%; margin-right: 10px; }
+    */
+    nav.container-menu.active{ width: 100vw !important; }
+    nav.container-menu .content-menu{ width: 106vw !important; }
+    nav.container-menu .tag-menu{ width: 80%; }
+    nav.container-menu ul{ text-align: center; margin: 40px 0 !important; }
+    nav.container-menu ul li { font-size: 20px; }
+    nav.container-menu .btn-exit { justify-content: center; }
+    nav.container-menu .btn-exit img{ width: 22px; margin-right: 10px;}
+    nav.container-menu .btn-exit p{ font-size: 18px; }
+
+    .content-page{ padding-top: 6%; overflow-y: auto; overflow-x: hidden; width: 100%; padding: 0 10%; }
+    .content-columns p { font-size: 1.0rem; }
+    .container-miga{ font-size: 0.6rem; }
+    .w-10{ width: 100% !important; }
+    .w-15{ width: 100% !important; }
+    .w-20{ width: 100% !important; }
+    .w-25{ width: 100% !important; }
+    .w-30{ width: 100% !important; }
+    .w-35{ width: 100% !important; }
+    .w-40{ width: 100% !important; }
+    .w-45{ width: 100% !important; }
+    .w-50{ width: 100% !important; }
+    .w-55{ width: 100% !important; }
+    .w-60{ width: 100% !important; }
+    .w-65{ width: 100% !important; }
+    .w-70{ width: 100% !important; }
+    .w-75{ width: 100% !important; }
+    .w-80{ width: 100% !important; }
+    .w-85{ width: 100% !important; }
+    .w-90{ width: 100% !important; }
+    .w-95{ width: 100% !important; }
+    .w-100{ width: 100% !important; }
+    .container-miga{
+        background-color: $bg-buttons;
+        width: 100%;
+        left: 0;
+        top: 15%;
+        padding: 10px 20px;
+        height: 9%;
+    }
+    .container-miga .label-module{
+        line-height: 20px !important;
+    }
+    .tag-slide .tag-slide-img {
+        width: 70px;
+        align-self: center;
+        z-index: 1;
+    }
+
+    .tag-slide .tag-slide-text {  
+        border-radius: 10px;
+        height: auto;
+        padding: 0.6em 1em 0.6em 1.8em;
+        margin: 13px -35px;
+        width: 85%;
+    }
+
+    .tag-slide .tag-slide-text p, .tag-slide2 .tag-slide-text p { font-size: 1rem; white-space: normal; text-align: left; line-height: 1.5rem; } 
+
+    /*========================================================================
+    Tabs
+    =========================================================================*/
+    .tabs .tabs-header .tab{
+        width: 90% !important;
+        border-bottom: 2px solid #fff;
+        border-radius: 5px;
+    }
+
+    .container-main{
+        align-items: flex-start;
+        top: 0px !important;
+        padding: 0rem 1rem 4rem 1rem !important;
+        background-image: none !important;
+    }
+
+    .btn-menu{
+        position: relative !important;
+        top: 10px !important;
+        left: 10px !important;
+        background-color: #cecece !important;
+    }
+    
+    .btn-credits{ top: 10px; right: 0px; }
+
+    .btn-menu::after{
+        display: none;
+    }
+
+    .btn-prev::after{
+        display: none;
+    }
+
+    .btn-next::before{
+        display: none;
+    }
+
+    .fondo{
+        display: none;
+    }
+    
+}
