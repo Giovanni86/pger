@@ -15,9 +15,23 @@ $images-path: "../img/"; //
 // $green: #446227;
 // $red: #95071a;
 
- 
+ //usaid colors
+$dark-blue-usaid:#205493;
+$ultra-dark-blue-usaid:#002F6C;
+$light-blue-usaid:#A7C6ED;
+$yellow-course:#EAC81F;
+$usaid-red:#BA0C2F;
+$usaid-dark-red:#661D32;
+$green-course:#298722;
+$magenta-men:#E73164;
+$blue-men:#3F67AE;
+$brown-light:#CECCC8;
+$brown-dark:#6C6463;
+$brown-usaid:#8B8884;
+
+
 $time-animation: 2s;
-$bg-header: #661D32;
+$bg-header: $usaid-red;
 $color-header: #425056;
 $bg-content: #FFF;
 $color-content: #425056;
@@ -44,19 +58,7 @@ $color-text-menu: #FFF;
 $bg-buttons: #D9525E;
 
 
-//usaid colors
-$dark-blue-usaid:#205493;
-$ultra-dark-blue-usaid:#002F6C;
-$light-blue-usaid:#A7C6ED;
-$yellow-course:#EAC81F;
-$usaid-red:#BA0C2F;
-$usaid-dark-red:#661D32;
-$green-course:#298722;
-$magenta-men:#E73164;
-$blue-men:#3F67AE;
-$brown-light:#CECCC8;
-$brown-dark:#6C6463;
-$brown-usaid:#8B8884;
+
 
 
 
