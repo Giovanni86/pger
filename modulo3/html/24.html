@@ -1,41 +1,71 @@
 <div class="container animate__animated animate__zoomIn">
     <div class="row d-flex align-items-center justify-content-center">
+        <div class="col-12 col-md-4 ">
+            <div class="alert alert-success p-2" role="alert">
+                <ul class="list m-0">
+                    <li class="m-0">
+                        <div class="media-item">
+                            <img src="./img/ico-calendar.svg" alt="Icono de calendario">
+                        </div>                                    
+                        <p class="text-start"> <span class="lead"><b>Tiempo de dedicación</b></span><br> <b class="small">2 horas</b></p>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
         <div class="col-12 col-md-10 align-self-center">
-            <center>
-                <img style="width: 100px;" src="./img/ico_cohete.svg">
-            </center>
-            <p class="border-text mb-2">
-                Al respecto, el documento “Bases curriculares para un despliegue curricular del liderazgo directivo” (2020) de la OEI y la Fundación Empresarios por la educación, plantea la importancia del direccionamiento estratégico.
-            </p>
-
-            <!-- <button class="btn-modal btn-start" data-modal="#Modal9">Ver tablas</button> -->
-            <button type="button" class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                <img src="./img/ico-book.svg" alt="icono de libro">
-                Bases curriculares para un despliegue curricular del liderazgo directivo
-                <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
-            </button>
-
+            <h2 class="mb-5">Práctica para la planeación y la gestión estratégica</h2>
+            <div class="row">
+                <div class="d-grid gap-2 col-12 col-sm-6 col-md-4 mx-auto mb-4">
+                    <button class="btn btn-info btn-lg text-dark" data-bs-trigger="focus" data-bs-toggle="modal" type="button" data-bs-target="#exampleModal1">
+                        Redes para aprender juntos
+                        <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                </div>
+                <div class="d-grid gap-2 col-12 col-sm-6 col-md-4 mx-auto mb-4">
+                    <button class="btn btn-info btn-lg text-dark" data-bs-trigger="focus" data-bs-toggle="modal" type="button" data-bs-target="#exampleModal2">
+                        Construyendo Redes de Aprendizaje
+                        <img class="p-2" src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                </div>
+            </div>
         </div>
+
     </div>
 </div>
 
+
 <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-fullscreen">
-        <div class="modal-content ">
+        <div class="modal-content">
             <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Redes para aprender juntos</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body align-items-center justify-content-center">
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-10 text-center">
-                        <p>
-                            “… las investigaciones identifican la importancia de fortalecer el liderazgo y en ese sentido, uno de los trabajos más referenciados para señalar la evidencia de que el liderazgo directivo es el segundo en importancia para promover el aprendizaje de los estudiantes después de la enseñanza en el aula, es el liderado por el profesor Leithwood et al. (2008). Este hallazgo constituye una de las principales evidencias del interés actual por el liderazgo en el sector educativo en el mundo, en especial, porque dicha investigación también muestra los grandes efectos que tiene una deficiente dirección en el cumplimiento de la función social de las instituciones educativas.
-                        </p>
-                        <p>
-                            En ese sentido, Leithwood et al (2008) señala: “No hay un solo caso documentado de una establecimiento educativo que haya logrado cambiar la trayectoria de los logros de sus estudiantes en ausencia de un liderazgo talentoso (p.29)”. Adicional a los trabajos de Leithwood, la profesora Robinson (2011) identifica que el directivo docente tiene un peso significativo en el aprendizaje de los estudiantes cuando influencia el trabajo de enseñanza de los docentes. Y a partir de reconocer que el imperativo de las instituciones educativas es que todos los niños, niñas y jóvenes aprendan, Fullan & Quinn (2016) identifican que el rol central del directivo es dar coherencia a dicho imperativo, y en esa medida, logran mejores resultados en los estudiantes.”
-                        </p> 
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        
+                        <!-- Slide 29 -->
+                        <div class="col-12 mb-5">
+                            <div class="row">
+                                <h4 class="mb-4">Redes para aprender juntos</h4>
+                                <div class="col-11 col-md-5">
+                                    <img class="img-fluid" src="./img/consuelo-p1.svg" alt="Imagen de consuelo parra saludando">
+                                </div>
+                                <div class="col-11 col-md-7 dialog">
+                                    <div class="arrow-left p-4 py-5 my-4">
+                                        <p>
+                                            En mi rol como líder de la institución, y como parte de la ruta para el mejoramiento de la calidad, he priorizado como estrategia la generación de redes, dado que es un mecanismo para aprender y para compartir el saber. 
+                                        </p>
+                                        <p class="alert alert-primary" role="alert">
+                                            Ahora lo invito a realizar este proceso en su Establecimiento Educativo
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -45,3 +75,55 @@
         </div>
     </div>
 </div>
+
+<!-- Modal 2 -->
+<div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Construyendo Redes de Aprendizaje</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        
+                        <!-- Slide 30 -->
+                        <div class="col-12 mb-5">
+                            <div class="row">
+                                <h4>Lo invito a realizar una reflexión frente a estas preguntas:</h4>
+                                <div class="col-11 col-md-5">
+                                    <img class="img-fluid" src="./img/consuelo-p2.svg" alt="Imagen de consuelo parra saludando">
+                                </div>
+                                <div class="col-11 col-md-7 dialog">
+                                    <div class="arrow-left p-4 py-5 my-4">
+                                        <p class="alert alert-primary" role="alert">
+                                            ¿Qué sentido tiene compartir experiencias con otros docentes e instituciones?
+                                        </p>
+                                        <p class="alert alert-success" role="alert">
+                                            ¿Han participado en encuentros e intercambios entre pares? Si es así, ¿cómo esto se ha reflejado en nuestro Establecimiento Educativo?
+                                        </p>
+                                        <p class="alert alert-danger" role="alert">
+                                            Para los que han estado en redes, ¿Qué elementos consideran que son claves para que haya participado activamente en intercambios o lo siga haciendo?
+                                        </p>
+                                        <p class="alert alert-warning" role="alert">
+                                            ¿Qué permite que un intercambio o una actividad de trabajo conjunto o de socialización se convierta en una red de aprendizaje?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer mx-auto">
+                <button type="button" class="btn btn-success btn-lg" data-bs-dismiss="modal">Entiendo</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
