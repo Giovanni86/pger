@@ -1,33 +1,47 @@
-
 <div class="container animate__animated animate__zoomIn">
     <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-12 col-md-11 align-self-center">
-            <h1 class="mb-5">Unidad de aprendizaje <br> <small>3. Rendición de cuentas</small> </h1>
-            <div class="row mb-3">
-                <div class="col-12 col-md-10 offset-md-1">
-                    <div class="alert alert-success" role="alert">
-                        En esta primera unidad se busca comprender la rendición de cuentas como un escenario democrático y como una oportunidad de mejora de los procesos de planeación del Establecimiento Educativo. 
-                    </div>
-                </div>
-
-                <div class="col-11 col-md-5">
-                    <img class="img-fluid" src="./img/consuelo-p1.svg" alt="Imagen de consuelo parra saludando">
-                </div>
-                <div class="col-11 col-md-7 dialog">
-                    <div class="arrow-left p-4 py-5 my-4">
-                        <p>
-                            Para cumplir con el proceso propuesto es necesario hacernos dos preguntas:
-                        </p>
-                        <a class="btn btn-success btn-lg d-flex mt-4"  role="button" data-bs-toggle="modal" data-bs-target="#modulo1">
-                            <span class="text-start">
-                                ¿Qué es la rendición de cuentas y qué elementos contempla?
-                            </span>
-                            <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
-                        </a>
-                    </div>
+        <div class="col-12 col-md-10 order-1 order-md-2 align-self-center">
+            <p class="border-text mb-5">
+                Para la formulación del presupuesto del sector educativo, deben ser consideradas las siguientes normas, teniendo en cuenta las disposiciones que las reglamentan. Haz clic sobre cada una delas normas para desplegar la información:
+            </p>            
+            <div class="row align-items-center justify-content-center">
+                <div class="btn-group" role="group" aria-label="Basic mixed styles example">
+                    <button type="button" class="btn btn-danger" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Por el cual se reglamenta de manera transitoria la contratación de la administración de la atención educativa por parte de las entidades territoriales certificadas, con los cabildos, autoridades tradicionales indígenas, asociación de autoridades tradicionales indígenas y organizaciones indígenas en el marco del proceso de construcción e implementación del sistema educativo indígena propio (SEIP).">
+                        Decreto 2500 del 12 de julio de 2010
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button type="button" class="btn btn-warning" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Por el cual se establecen las condiciones de aplicación de la gratuidad educativa para los estudiantes de educación preescolar, primaria, secundaria y media de las instituciones educativas estatales y se dictan otras disposiciones para su implementación.">
+                        Decreto 4807 del 20 de diciembre 2011
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button type="button" class="btn btn-success" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Por el cual se reglamentan parcialmente los artículos 11, 12, 13 y 14 de la Ley 715 de 2001 en relación con el Fondo de Servicios Educativos de los Establecimientos Educativos Estatales.">
+                        Decreto 4791 del 19 de diciembre de 2008
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button type="button" class="btn btn-info" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Documentos de Distribución de los recursos del Sistema General de Participación de la respectiva vigencia fiscal emitidos por el Departamento Nacional de Planeación.">
+                        Distribución de los recursos 
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button type="button" class="btn btn-primary" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Decretos y normas vigentes por los cuales se rigen los sueldos y prestaciones sociales del personal docente, directivo docente y administrativo, que se pagan con recursos del Sistema General de Participación.">
+                        Sistema General de Participación
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button type="button" class="btn btn-dark" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Orientaciones contenidas en la “Guía para la administración de los recursos financieros del sector educativo” de junio de 2016 que es la actualización de la guía No. 8 del Ministerio de Educación Nacional.">
+                        Guía para la administración de los recursos financieros del sector educativo
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
                 </div>
             </div>
         </div>
+        <!-- <div class="alert alert-warning">
+            Para consultar la guía descargue
+        </div> -->
     </div>
-     
 </div>
+
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>

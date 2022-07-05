@@ -1,41 +1,58 @@
-<div class="container animate__animated animate__zoomIn">
+<div class="container">
     <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-12 col-md-10 align-self-center my-3 animate__animated animate__zoomIn">
-
-            <p>
-                Para este ejercicio participativo, tomamos una a una las reflexiones anteriores, desglosando cada una de ellas en los aspectos, propósitos, necesidades o problemáticas nos reflejaba al interior de la escuela. Para sistematizar lo que íbamos encontrando, se utilizó la siguiente matriz:
-            </p>
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-12">
-                    <table class="table table-success table-striped">
-                        <thead>
-                            <tr class="table-primary">
-                                <th scope="col">Aspectos, propósitos, necesidades o problemáticas</th>
-                                <th scope="col">Acciones realizadas</th>
-                                <th scope="col">¿Qué nos falta?</th>
-                                <th scope="col">¿Quién nos puede ayudar?</th>
-                                <th scope="col">¿Cómo aporta a la escuela como un territorio de paz?</th>
-                                <th scope="col">Recomendaciones</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                                <td>&nbsp;</td>
-                            </tr>
-                        </tbody>
-                    </table>
+        <div class="col-12 col-md-10 animate__animated animate__zoomIn">
+            <h3>
+                ¿Cómo generar ambientes propicios que logren aprendizajes significativos?
+            </h3>
+        </div>
+        <div class="col-12 col-md-10 animate__animated animate__zoomIn">
+            <div class="row">
+                <div class="d-grid gap-2 col-12 col-md-6 mx-auto mb-2">
+                    <img class="mb-4" src="./img/consuelo-p1-dr.svg" alt="imagen consuelo derecha">
+                </div>
+                
+                <div class="d-grid gap-2 col-12 col-md-4 mx-auto mb-2">
+                    <p>Algunos aspectos que los posibilitan son:</p>
+                    <button class="btn btn-outline-primary btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Los talentos y capacidades de los equipos docentes, para que, desde allí, pueda gestionar la formación académica, actualización y la gestión para su formación a partir del plan de mejoramiento institucional.">
+                        <!-- <img class="mb-4" src="./img/ico_aliance.svg" alt="icono de alianca familia comunidad scuela" style="width: 30%!important; height: auto;"><br> -->
+                        1. Identificación del recurso humano
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button class="btn btn-outline-primary btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Liderar ambientes favorables para el desarrollo de las fortalezas de los miembros de la comunidad educativa y contribuir con el ambiente escolar a facilitar la generación de espacios que potencien el ser.">
+                        <!-- <img class="mb-4" src="./img/ico_inclusion.svg" alt="icono de inclusión" style="width: 30%!important; height: auto;"><br> -->
+                        2. Favorecer los ambientes propicios
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button class="btn btn-outline-primary btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="El desempeño de los equipos de trabajo y el compromiso frente a los diferentes roles que desempeñan.">
+                        <!-- <img class="mb-4" src="./img/ico_rural.svg" alt="icono rural" style="width: 30%!important; height: auto;"><br> -->
+                        3. Impulsar
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button class="btn btn-outline-primary btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Comprender que los seres humanos poseemos cualidades que podemos desarrollar cuando otras personas nos ayudan a reconocerlas y potenciarlas.">
+                        <!-- <img class="mb-4" src="./img/ico_rural.svg" alt="icono rural" style="width: 30%!important; height: auto;"><br> -->
+                        4. Reconocimiento
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
                 </div>
             </div>
         </div>
-        
-        <div class="col-11 col-md-8 alert alert-warning" role="alert">
-            Al final, como ejercicio de empoderamiento y proyección, junto con el equipo líder y teniendo como referencia el reconocimiento del territorio, el PEI y las matrices de conclusiones, propusimos un sueño innovador, sobresaliente y motivante que hace referencia a la posibilidad de trazar caminos diferentes a los que el establecimiento educativo ha implementado, con el propósito de alcanzar resultados sobresalientes que antes parecían inalcanzables e imposibles y que implican rompimiento y trasformaciones radicales.
+        <div class="col-10 col-md-8 mt-5 animate__animated animate__bounceInUp">
+            <div class="alert alert-warning" role="alert">
+                Una vez abordada la conceptualización de cada unidad de aprendizaje recuerde registrar su proceso en su bitácora de trabajo.
+            </div>
         </div>
-
+        <div class="d-grid gap-2 col-8 mx-auto animate__animated animate__bounceInUp">
+            <button class="btn btn-primary btn-lg disabled" type="button">
+                Práctica para la planeación y la gestión estratégica
+                <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+            </button>
+        </div>
     </div>
 </div>
+
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>

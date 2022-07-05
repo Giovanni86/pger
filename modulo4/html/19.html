@@ -1,33 +1,41 @@
-<div class="container animate__animated animate__zoomIn">
+<div class="container">
     <div class="row d-flex align-items-center justify-content-center">
-        <div class="col-12 col-md-10 align-self-center my-3 animate__animated animate__zoomIn">
-            
-            <h3 class="mb-4">A continuación, les comparto uno de los sueños que propusieron en mi equipo docente:</h3>
-
-            
-            <div class="row align-items-center justify-content-center">
-                <div class="col-md-4">
-                    <p>
-                        “Ser un establecimiento educativo rural que aporte a la paz y que sea reconocido por sus estrategias inclusivas y buena convivencia con alianzas certificadas para fortalecer los proyectos pedagógicos.”
-                    </p>
-                </div>
-                <div class="col-md-6">
-                    <img class="img-fluid rounded" src="./img/img-caja-recuerdos.jpg" alt=" imagen de cajas de madera">
+        <div class="col-12 col-md-10 animate__animated animate__zoomIn">
+            <h3>
+                ¿Qué normatividad fomenta la Formación Continua? 
+            </h3>
+            <p>
+                Para el Ministerio de Educación Nacional el proceso de formación continua de los maestros es un elemento central de la calidad educativa, por lo cual cuentan con un proceso reglamentado para este fin.
+            </p>
+        </div>
+        <div class="col-12 col-md-10 animate__animated animate__zoomIn">
+            <div class="row">
+                <div class="d-grid gap-2 col-12 col-md-4 mx-auto mb-2">
+                    <button class="btn btn-outline-primary btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Cada entidad territorial certificada, de acuerdo con sus particularidades y en razón de las competencias otorgadas por la Ley 715 de 2001, para la administración del servicio educativo, debe incorporar en su respectivo Plan sectorial de desarrollo educativo, de acuerdo con lo que estipulan la Ley 115 de 1994 y el Decreto 709 de 1996, un Plan Territorial de Formación para Docentes y Directivos docentes (PTFD) en servicio, que contenga programas y acciones de formación específicas para los maestros.">
+                        <img class="mb-2" src="./img/img_sld8a.svg" alt="Mano con un dedo arriba" style="width: 30%!important; height: auto;"><br>
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button class="btn btn-outline-primary btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Para el proceso de construcción de este documento cada Secretaría de Educación cuenta con la asesoría permanente del correspondiente Comité Territorial de Capacitación de Docentes que según lo indican el capítulo V del Decreto 709 y la Directiva Ministerial 28 de 2009 es conformado y reglamentado mediante acto administrativo expedido por la Secretaría de Educación de la entidad territorial certificada.">
+                        <img class="mb-2" src="./img/img_sld8b.svg" alt="Mano con dos dedos arriba" style="width: 30%!important; height: auto;"><br>
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button class="btn btn-outline-primary btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Como un apoyo a las Secretarías de Educación y a los Comités Territoriales de Capacitación de Docentes, en la construcción del PTFD de la entidad territorial, el Ministerio de Educación elaboró el documento 'Construyendo el Plan Territorial de Formación Docente, Guía para su elaboración', en el que se ofrecen lineamientos para llevar a cabo este proceso.">
+                        <img class="mb-2" src="./img/img_sld18c.svg" alt="icono rural" style="width: 30%!important; height: auto;"><br>
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
+                    <button class="btn btn-outline-primary btn-lg" data-bs-toggle="popover" data-bs-trigger="focus" data-bs-content="Comprender que los seres humanos poseemos cualidades que podemos desarrollar cuando otras personas nos ayudan a reconocerlas y potenciarlas.">
+                        <img class="mb-2" src="./img/img_sld18d.svg" alt="icono rural" style="width: 30%!important; height: auto;"><br>
+                        <img src="./img/ico-action.svg" alt="icono que indica que es un botón de acción">
+                    </button>
                 </div>
             </div>
         </div>
-        <div class="col-11 col-md-3 align-self-center my-3 animate__animated animate__zoomIn">
-            <img class="img-fluid" src="./img/consuelo-p1.svg" alt="Imagen de consuelo parra saludando">
-        </div>
-        <div class="col-11 col-md-8">
-            <div class="alert alert-info" role="alert">
-                <p>Ahora, ¿qué otras cosas agregarían ustedes para generar este diálogo en sus comunidades? </p> 
-                <div class="alert alert-success mt-4" role="alert">
-                    ¿Qué tan dispuestos están de tomar la tarea de la transformación de la educación rural hacia una educación de calidad, como su derrotero de trabajo cotidiano dentro de la escuela y en la comunidad?
-                </div>
-            </div>
-        </div>
-        
-
     </div>
 </div>
+
+<script>
+    var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+    var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl)
+    })
+</script>
